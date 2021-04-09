@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+main {
+    width: 30%;
+    height: 90vh ;
+    background-color: black;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+#result {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.display {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom:15px;
+    padding: 15px;
+    height: 20%;
+    color: #fff;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
