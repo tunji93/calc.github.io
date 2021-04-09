@@ -12,9 +12,9 @@ body {
 }
 
 main {
-    width: 30%;
+    width: 25%;
     height: 90vh ;
-    background-color: black;
+    background-color: #1C1C1C;
     border-radius: 15px;
     
     display: flex;
@@ -37,4 +37,46 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
+.buttons {
+    height: 80%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button {
+    text-align: center;
+    width: 20%;
+    height: 4rem;
+    border-radius: 90px;
+    border: none;
+    background-color: #505050;
+    color: #FFF;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+button:focus, button:hover{
+    outline: none;
+    transform: scale(1.1);
+}
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.orange {
+    background-color: #FF9500;
+}
+.function {
+    background-color: #D4D4D2;
+}
+.zero {
+    width: 47.5%;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 1.5rem;
 }
