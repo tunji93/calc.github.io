@@ -16,6 +16,7 @@ main {
     height: 90vh ;
     background-color: #1C1C1C;
     border-radius: 15px;
+    border: 1px solid #dadce0;
     
     display: flex;
     flex-direction: column;
@@ -59,9 +60,12 @@ button {
     cursor: pointer;
     transition-duration: 0.2s;
 }
-button:focus, button:hover{
+button:hover{
     outline: none;
     transform: scale(1.1);
+}
+button:focus {
+    outline: none;
 }
 .row1, .row2, .row3, .row4, .row5 {
     display: flex;
